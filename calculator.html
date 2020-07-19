@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" href="../css/calculator.css">
+	</head>
+	<body>
+		<h1>Dylan's Calculator</h1>
+		<div id="table_container">
+			<table>
+				<tbody>
+					<tr>
+						<td colspan="4" id="answer" class="n"></td>
+						<td id="ca" class="n" onclick="ca()">C</td>
+					</tr>
+					<tr>
+						<td id="one" class="n" onclick="a1()">1</td>
+						<td id="two" class="n" onclick="a2()">2</td>
+						<td id="three" class="n" onclick="a3()">3</td>
+						<td id="plus" class="n" onclick="add()">+</td>
+						<td id="random" class="n" onclick="rand()">R</td>
+					</tr>
+					<tr>
+						<td id="four" class="n" onclick="a4()">4</td>
+						<td id="five" class="n" onclick="a5()">5</td>
+						<td id="six" class="n" onclick="a6()">6</td>
+						<td id="minus" class="n" onclick="minus()">-</td>
+					</tr>
+					<tr>
+						<td id="seven" class="n" onclick="a7()">7</td>
+						<td id="eight" class="n" onclick="a8()">8</td>
+						<td id="nine" class="n" onclick="a9()">9</td>
+						<td id="multiply" class="n" onclick="multiply()">x</td>
+					</tr>
+					<tr>
+						<td class="n" id="delete" onclick="del()">D</td>
+						<td id="zero" class="n" onclick="a0()">0</td>
+						<td class="n" id="equal" onclick="equals()">=</td>
+						<td id="divide" class="n" onclick="divide()">/</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<p id="links"><a href="calculator.html" id="current">Home</a> | <a href="info.html" class="link">Info</a> | <a href="mailto:dylanrlatimer@outlook.com" class="link">Contact me</a></p>
+	</body>
+	<script type="text/javascript" src="../js/main.js"></script>
+</html>
